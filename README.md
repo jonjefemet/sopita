@@ -1,2 +1,6 @@
 # sopita
+
+Proyecto definitivo, para poder aplicar mis 4 años de conocimiento de PHP, usa mi motivacion para seguir adelante.
+El proyecto es simple (API RESTS), porque quiero que sea utilizado como material de apoyo para futuro desarrolladores....
+
 Ahora si, chingo a mi madre si no lo termino...
