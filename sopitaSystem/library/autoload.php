@@ -1,5 +1,12 @@
 <?php
 
 spl_autoload_register(function ($class) {
-    require_once APP_PATH . "/" . strtolower(str_replace("\\", "/", $class)) . ".php";
+
+    $class = explode("\\", $class);
+
+    foreach ($class as &$value) {
+        $value = lcfirst($value);
+    }
+
+    require_once APP_PATH . "/" . implode("/", $class) . ".php";
 });

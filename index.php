@@ -11,4 +11,4 @@ require_once "sopitaSystem/library/autoload.php";
 use App\Application;
 
 $application = new Application();
-print_r($_GET);
+$application->run();
